@@ -1,5 +1,5 @@
 context:
-  version: "1.0.0"
+  version: "1.1.0"
 
 package:
   name: julday
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://gitlab.com/earthscope/public/epic/passoft/julday/-/archive/v${{ version }}/julday-v${{ version }}.tar.gz
-  sha256: 4258145851880eb2fd5853fe34c03e5ba72bbc456dbf8e5f15c6344775e5e444
+  sha256: c4aabbd25ee8a2054748d819141d123a2f6f0d67b87796041a8e35dd9e4b279b
 
 build:
   noarch: python
